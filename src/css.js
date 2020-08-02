@@ -17,11 +17,11 @@ const string = `
   
   .eye {
     border: 3px solid #000;
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
     position: absolute;
     left: 50%;
-    top: 100px;
+    top: 90px;
     margin-left: -32px;
     background: #2e2e2e;
     border-radius: 50%;
@@ -36,8 +36,8 @@ const string = `
     content: "";
     display: block;
     border: 3px solid black;
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
     background: #fff;
     position: relative;
@@ -54,7 +54,7 @@ const string = `
     position: absolute;
     left: 50%;
     margin-left: -14px;
-    top: 150px;
+    top: 140px;
     z-index: 2;
   }
   @keyframes wave {
@@ -80,7 +80,7 @@ const string = `
     position: absolute;
     left: 50%;
     margin-left: -100px;
-    top: 180px;
+    top: 170px;
   }
   .mouth .up {
     position: relative;
@@ -133,12 +133,12 @@ const string = `
   
   .mouth .down .tongue1 {
     border: 4px solid black;
-    width: 150px;
+    width: 120px;
     height: 1000px;
     position: absolute;
     left: 50%;
     bottom: 30px;
-    margin-left: -75px;
+    margin-left: -60px;
     border-radius: 75px/300px;
     background: #9b000a;
     overflow: hidden;
@@ -156,20 +156,20 @@ const string = `
   
   .cheek {
     border: 3px solid black;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     left: 50%;
-    margin-left: -45px;
-    top: 220px;
+    margin-left: -35px;
+    top: 210px;
     border-radius: 50%;
     background: #ff0000;
   }
   .cheek.left {
-    transform: translateX(-170px);
+    transform: translateX(-150px);
   }
   .cheek.right {
-    transform: translateX(170px);
+    transform: translateX(150px);
   }`;
 
 export default string;
